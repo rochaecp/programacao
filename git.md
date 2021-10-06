@@ -11,95 +11,11 @@ git config --local user.password "<USER_PASS_OR_TOKEN_GITHUB>"
 git config --local credential.helper store
 ~~~
 
-## Introdução
-
-- Git é um programa versionador de código criado por Linus Torwalds.
-- GitHub é um servidor na nuvem que armazena os códigos. Há outros (GitLab, BitBucket, ...).
-- Estados de arquivos:
-  - untracked: arquivo recém criado
-  - tracked:
-    - unmodified
-    - modified
-    - staged: arquivo preparado para realizarmos o commit
-- O git add move o arquivo de untracked para staged
-- O git commit integra os arquivos modificados ao repositório local e retorna os arquivos para o estado de unmodified
-- Repositório remoto: no servidor
-- Repositório local: contém todos os arquivos commitados 
-- Ambiente de trabalho > staged > Repositório local
-
-- Commits
-  - Melhoram a legibilidade do histórico
-  - Devem ser amigáveis, legíveis
-  - Devem ser atômicos, unidades sólidas
-  - Exemplos de boas mensagens de commits:
-    - Implementa catálogo de produtos
-    - Reformula Menu lateral
-    - Conserta erros de gramática
-    - Remove estilo do footer
-    - Add a feature
-    - Modify an existing feature
-    - Remove a feature
-  - Portugues ou ingles
-    - Siga a convençã do time
-
-- Estrutura do commit
-  - Assunto/subject: curto e compreensivel, até 50 caracteres, começa com letra maiúscula, não termina com ponto, escrever na forma imperativa (adiciona, modifica, remove)
-  - Corpo: adicione detalhes ao commit, quebre a linha com 75 caracteres, identifique sua audiencia, explique tudo (imagine que a pessoa não entende o que está acontecendo no código), use markdown
-  - Rodapé: referencia assuntos relacionados
-
-- Commits semânticos - conventional commits
-  - semantic versioning: 3.2.7 == Major.Minor.Patch
-    - Major == alterações/new features que quebra a compatibilidade
-    - Minor ==  alterações/new features que não quebram a compatibilidade
-    - Patch == correção de bug
-
-- Issues - no github
-  - descrever problemas/questoes/bugs encontrados
-
-- Tag HEAD
-  - A tag head aponta para o último commit válido numa branch
-  - Uma tag é um nome que atribuímos a um determinado local no tempo.
-  - HEAD é uma tag que acompanha um commit especifico e aponta sempre para o ultimo commit de uma branch
-- O nome Main vem sendo adotado mais recentemente no lugar de Master.
-
-- Branches:
-  - A branch é uma ramificação do código.
-  - Não existe commit sem branch.
-  - O nome da branch deve ser bem descritivo.
-
-- Stash
-  - Stash é uma "caixinha".
-  - Funciona como um array
-  - Ao criar nova branch podemos deixar a branch principal limpa usando o stash.
-  - Mover-se de uma branch para outra sem carregar nada do contexto anterior.
-  - Possui a finalidade de ser utilizado de forma temporária.
-
-- Log - Histórico
-  - Registro cronológico de commits
-
-- arquivo .gitignore
-  - expressoes regulares de arquivos que não queremos versionar
-  - ex.: pasta bin e obj no .NET não queremos versionar:
-
-  ~~~shell
-  # dotnet
-  bin/
-  obj/
-  ~~~
-
-- GitLab https://gitlab.com/ 
-    https://gitlab.com/rochamauricio
-  - Simular ao Github 
-  - É open source (o Github não é)
-  - Organização de repositórios em grupos
-  - CI/CD
-
-
 
 ## Alguns comandos
 
 ~~~shell
-# git confit - escopos: 
+# git config - escopos: 
 ## --system (para todo o SO)
 ## --local (para o projeto)
 ## -- global (variaveis globais)
@@ -377,6 +293,89 @@ git log --oneline # historico de commits de forma resumida
 git log --graph
 
 ~~~
+
+## Teorias
+
+- Git é um programa versionador de código criado por Linus Torwalds.
+- GitHub é um servidor na nuvem que armazena os códigos. Há outros (GitLab, BitBucket, ...).
+- Estados de arquivos:
+  - untracked: arquivo recém criado
+  - tracked:
+    - unmodified
+    - modified
+    - staged: arquivo preparado para realizarmos o commit
+- O git add move o arquivo de untracked para staged
+- O git commit integra os arquivos modificados ao repositório local e retorna os arquivos para o estado de unmodified
+- Repositório remoto: no servidor
+- Repositório local: contém todos os arquivos commitados 
+- Ambiente de trabalho > staged > Repositório local
+
+- Commits
+  - Melhoram a legibilidade do histórico
+  - Devem ser amigáveis, legíveis
+  - Devem ser atômicos, unidades sólidas
+  - Exemplos de boas mensagens de commits:
+    - Implementa catálogo de produtos
+    - Reformula Menu lateral
+    - Conserta erros de gramática
+    - Remove estilo do footer
+    - Add a feature
+    - Modify an existing feature
+    - Remove a feature
+  - Portugues ou ingles
+    - Siga a convençã do time
+
+- Estrutura do commit
+  - Assunto/subject: curto e compreensivel, até 50 caracteres, começa com letra maiúscula, não termina com ponto, escrever na forma imperativa (adiciona, modifica, remove)
+  - Corpo: adicione detalhes ao commit, quebre a linha com 75 caracteres, identifique sua audiencia, explique tudo (imagine que a pessoa não entende o que está acontecendo no código), use markdown
+  - Rodapé: referencia assuntos relacionados
+
+- Commits semânticos - conventional commits
+  - semantic versioning: 3.2.7 == Major.Minor.Patch
+    - Major == alterações/new features que quebra a compatibilidade
+    - Minor ==  alterações/new features que não quebram a compatibilidade
+    - Patch == correção de bug
+
+- Issues - no github
+  - descrever problemas/questoes/bugs encontrados
+
+- Tag HEAD
+  - A tag head aponta para o último commit válido numa branch
+  - Uma tag é um nome que atribuímos a um determinado local no tempo.
+  - HEAD é uma tag que acompanha um commit especifico e aponta sempre para o ultimo commit de uma branch
+- O nome Main vem sendo adotado mais recentemente no lugar de Master.
+
+- Branches:
+  - A branch é uma ramificação do código.
+  - Não existe commit sem branch.
+  - O nome da branch deve ser bem descritivo.
+
+- Stash
+  - Stash é uma "caixinha".
+  - Funciona como um array
+  - Ao criar nova branch podemos deixar a branch principal limpa usando o stash.
+  - Mover-se de uma branch para outra sem carregar nada do contexto anterior.
+  - Possui a finalidade de ser utilizado de forma temporária.
+
+- Log - Histórico
+  - Registro cronológico de commits
+
+- arquivo .gitignore
+  - expressoes regulares de arquivos que não queremos versionar
+  - ex.: pasta bin e obj no .NET não queremos versionar:
+
+  ~~~shell
+  # dotnet
+  bin/
+  obj/
+  ~~~
+
+- GitLab https://gitlab.com/ 
+    https://gitlab.com/rochamauricio
+  - Simular ao Github 
+  - É open source (o Github não é)
+  - Organização de repositórios em grupos
+  - CI/CD
 
 ## Links
 
