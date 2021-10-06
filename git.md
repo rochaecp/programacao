@@ -1,6 +1,6 @@
 # Git
 
-# Iniciar um repositorio
+# Exemplo: Iniciar um repositorio
 
 ~~~bash
 git init
@@ -9,10 +9,8 @@ git config --local user.name "<NOME_USUARIO>"
 git config --local user.email "<EMAIL_USUARIO>"
 git config --local credential.helper store
 
-# se repositorio ja contiver algo
-git pull origin master 
+git pull origin master # se repositorio ja contiver algo
 
-# se repositorio estiver vazio
 git add * 
 git commit -m "Commit inicial"
 git push origin master
