@@ -1,5 +1,9 @@
 # Estudar
 
+- Classes POCO
+- DDD
+- Fluent Validation
+
 
 https://github.com/rvlampert/fibonacci
 https://github.com/rvlampert/entity-framework
