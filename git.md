@@ -7,8 +7,10 @@ git init
 git remote add origin <URL_REPO_REMOTO>
 git config --local user.name "<NOME_USUARIO>"
 git config --local user.email "<EMAIL_USUARIO>"
-git config --local user.password "<USER_PASS_OR_TOKEN_GITHUB>"
 git config --local credential.helper store
+git add * 
+git commit -m "Commit inicial"
+git push origin master
 ~~~
 
 
