@@ -4,10 +4,15 @@
 
 ~~~bash
 git init
-git remote set-url Origin https://<NOME_USUARIO>@github.com/<NOME_USUARIO>/<NOME_PROJETO>.git
+git remote add origin https://<NOME_USUARIO>@github.com/<NOME_USUARIO>/<NOME_PROJETO>.git
 git config --local user.name "<NOME_USUARIO>"
 git config --local user.email "<EMAIL_USUARIO>"
 git config --local credential.helper store
+
+# se repositorio ja contiver algo
+git pull origin master 
+
+# se repositorio estiver vazio
 git add * 
 git commit -m "Commit inicial"
 git push origin master
