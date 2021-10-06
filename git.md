@@ -4,7 +4,7 @@
 
 ~~~bash
 git init
-git remote add origin <URL_REPO_REMOTO>
+git remote set-url Origin https://<NOME_USUARIO>@github.com/<NOME_USUARIO>/<NOME_PROJETO>.git
 git config --local user.name "<NOME_USUARIO>"
 git config --local user.email "<EMAIL_USUARIO>"
 git config --local credential.helper store
