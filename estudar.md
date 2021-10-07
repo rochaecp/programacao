@@ -1,118 +1,96 @@
-# Estudar
+# Estudar (obs.: itens em ordem alfabética)
 
-- Classes POCO
-- DDD
-- Fluent Validation
+- **.NET**
+    - Rodar projetos ricardo
+        - <https://github.com/rvlampert/fibonacci>
+        - <https://github.com/rvlampert/entity-framework>
+        - <https://colab.research.google.com/drive/1agvs4efXPZdohXcKjkJCXqXejqSV0HEs?usp=sharing>
+        - <https://colab.research.google.com/drive/1s7GCGVtX6l80SrXr-SJcFImZHSDTHgDi?usp=sharing>
+    - Testes automatizados, Unit Tests 
+    - Fluent Validation
+    - asp - w3s
+    - cursos dio
+    - asp com react - youtube 
+    - asp - w3s
+- **Banco de dados**
+    - Revisão aula fbd
+    - postgre 
+        - curso dio 
+            - <https://web.digitalinnovation.one/course/conceitos-e-melhores-praticas-com-bancos-de-dados-postgresql/learning/abe736a3-279b-465c-986f-e35be51a7b39/?back=/browse>
+    - Fontes: w3s, dio, bradesco, boson, univesp
+    - postgresql, sql, mysql, nosql
+- **Docker**
+    - youtube - compose prog a bordo
+    - youtube - compose do 0 ao deploy
+    - orquestração
+    - youtube - bind mounts - algaworks
+    - develop (.net, asp)
+    - curso dio 
+    - <https://docs.docker.com/develop/>
+    - kubernetes
+- **Diversos**
+    - Classes POCO
+    - DDD
+    - html dom 
+    - Deploy, Software deployment 
+    - Design patterns
+    - SPA - single page application
+    - elasticsearch, neo4j, web crawling, web scraping
+    - devops - airflow
+    - maven
+    - cloud platforms architectures (aws, azure, google cloud)
+    - business intelligence    
+- **Git** 
+    - Fontes: w3s, pet ufrgs
+    - ferramenta de ci do git
+- **Inteligencia Artificial**
+    - Curso IA - equipe Soft fez: <https://course.spacy.io/en/>
+    - implementar exemplo1 ricado: <https://github.com/rvlampert/linear-regression>
+    - implementar exemplo2 ricado: <https://github.com/rvlampert/k-means>
+    - tensor flow, pythorch
+- **Linux**
+    - comando curl
+- **Livros**
+    - Clean Code
+    - Pragmatic programmer
+    - Design Patterns
+    - TDD by examples (Kent Back)
+    - Russel
+- **Mock**    
+    - <https://en.wikipedia.org/wiki/Mock_object>
+    - <https://martinfowler.com/articles/mocksArentStubs.html>
+- **Python** 
+    - Fontes: w3s, dio, doc oficial, tutorial oficial, youtube, pythonbrasil
+    - w3s: NumPy, Pandas, SciPy, Matplotlib, Machine Learning, MySQL, MongoDB
+    - google colab, jupyter notebook
+- **React**
+    - olhar documentação 
+    - curso dio continuar
+    - com dotnet
+- **Tests**
+    - testes automatizados 
+    - unit tests com asp.net 
+    - tdd
+    - code review
 
+# Procergs
 
-https://github.com/rvlampert/fibonacci
-https://github.com/rvlampert/entity-framework
-
-- .net rodar projetos ricardo
-- proj ricardo -https://colab.research.google.com/drive/1agvs4efXPZdohXcKjkJCXqXejqSV0HEs?usp=sharing  salvar no links do csharp.md 
-- proj ricardo2 - https://colab.research.google.com/drive/1s7GCGVtX6l80SrXr-SJcFImZHSDTHgDi?usp=sharing basico de arq - salvar no links do csharp.md
-
-- .net - testes automatizados, unit tests, fluentvalidation 
-
-- .net - asp - w3s
-- .net - cursos dio
-- .net - asp com react - youtube 
-
-- postgre - curso dio - https://web.digitalinnovation.one/course/conceitos-e-melhores-praticas-com-bancos-de-dados-postgresql/learning/abe736a3-279b-465c-986f-e35be51a7b39/?back=/browse
-
-- gitlab - treino rápido
-
-- - - to do - - - 
-
-# para Softplan
-- react - olhar documentação 
-- react - curso dio continuar
-- react com dotnet
-- testes automatizados 
-- unit tests
-- code review
-- google colab
-- fluentvalidation 
-- mensageria
-- ver vídeos do continua do mensageria.md 
-- rabbitmq
-- Redis (use as a database, cache, message broker, and queue)
-- apis: rest e restful, soap
-
-# conceitos frequentes
-
-- html dom 
-- deploy
-- design patterns
-- software deployment 
-- spa - single page application
-- elasticsearch, neo4j, web crawling, web scraping
-- devops - airflow
-- maven
-- cloud platforms architectures (aws, azure, google cloud)
-- business intelligence
-
-# tests
-- testes automatizados 
-- unit tests com asp.net 
-- tdd
-- code review
-
-# git (w3s, pet ufrgs)
-- ferramenta de ci do git
-
-# docker (dio)
-- docker - youtube - compose prog a bordo
-- docker - youtube - compose do 0 ao deploy
-- docker - orquestração
-- docker - youtube - bind mounts - algaworks
-- docker - develop (.net, asp)
-- docker - curso dio 
-- docker https://docs.docker.com/develop/ 
-- kubernetes
-
-# linux
-- comando curl
-
-# bds (w3s, dio, bradesco, boson, univesp)
-- postgresql, sql, mysql, nosql
-
-# dotnet
-- asp - w3s
-- mock
-
-# python (w3s, dio, doc oficial, tutorial oficial, youtube, pythonbrasil)
-- w3s: NumPy, Pandas, SciPy, Matplotlib, Machine Learning, MySQL, MongoDB
-- google colab, jupyter notebook
-
-# front-end (dio, w3s)
-- reactjs, javascript, vuejs, angular
-
-# back-end (dio, w3s, dell)
-- nodejs, php,  java, ruby
-
-# oop, eng de sw e estrut de dados (dio, univesp, boson uml, bradesco)
-- scrum, agile methods
-
-# ia e dc (univesp, unisc)
-- implementar exemplo1 ricado: https://github.com/rvlampert/linear-regression 
-- implementar exemplo2 ricado: https://github.com/rvlampert/k-means 
-- tensor flow, pythorch
-
-# leitura
-
-- Clean Code
-- Pragmatic programmer
-- TDD by examples (Kent Back)
-- Russel
-
-
-
-
-
-
- 
-
-
-
-
+- Arquitetura de computadores.
+- Sistemas operacionais Windows e Linux,
+- Fundamentos de engenharia de software.
+- Análise de sistemas: técnicas de especificação de requisitos em ciclos de vida tradicional e ágil de desenvolvimento de sistemas.
+- Conceitos de orientação à objetos: objetos e classes, encapsulamento, associações e ligações, herança, polimorfismo, coesão e acoplamento.
+- Padrão MVC (Model-View-Controller) de Projeto, conceitos de inversão de controle e injeção de dependências.
+- Testes de software: fundamentos de testes, tipos de testes, automação de testes funcionais, testes unitários.
+- Tecnologia .NET, linguagem C# - conceitos e arquitetura para .NET5, NET Core e .NET framework.
+- Aplicações ASP.NET, MVC, REST API e Single Page.
+- Entity Framework, Dapper, ADO.NET.
+- Técnicas de tratamento e log de erros.
+- Desenvolvimento de interfaces WEB empregando HTML5, CSS e JavaScript.
+- Modelagem UML.
+- Sistemas gerenciadores de bancos de dados relacionais.
+- Modelagem Entidade-Relacionamento.
+- Conceitos de Application Development Lifecycle Management (ADLM).
+- Conhecimentos de integração contínua utilizando Git, Pipelines e Releases com Microsoft Azure Devops, Sonar.
+- Desenvolvimento com .NET 5 e .NET Core utilizando Docker e Kubernetes.
+    
