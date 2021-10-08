@@ -223,11 +223,4 @@ foreach (string i in cars) {
 }
 ~~~
 
-### Listas
-
-~~~csharp
-
-~~~
-
-
 

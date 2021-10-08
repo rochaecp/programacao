@@ -1,17 +1,30 @@
 # Estudar (obs.: itens em ordem alfabética)
 
 - **.NET**
-    - Rodar projetos ricardo
-        - <https://github.com/rvlampert/fibonacci>
-        - <https://github.com/rvlampert/entity-framework>
-        - <https://colab.research.google.com/drive/1agvs4efXPZdohXcKjkJCXqXejqSV0HEs?usp=sharing>
-        - <https://colab.research.google.com/drive/1s7GCGVtX6l80SrXr-SJcFImZHSDTHgDi?usp=sharing>
-    - Testes automatizados, Unit Tests 
-    - Fluent Validation
-    - asp - w3s
-    - cursos dio
-    - asp com react - youtube 
-    - asp - w3s
+    - POO e outras prioridades básicas
+        - operador => em Csharp
+        - Repositorios
+        - Classes Context, DBContext
+        - Classes Service
+        - Coleções
+        - Exceções
+        - Rodar projetos ricardo
+            - <https://github.com/rvlampert/fibonacci>
+            - <https://github.com/rvlampert/entity-framework>
+            - <https://colab.research.google.com/drive/1agvs4efXPZdohXcKjkJCXqXejqSV0HEs?usp=sharing>
+            - <https://colab.research.google.com/drive/1s7GCGVtX6l80SrXr-SJcFImZHSDTHgDi?usp=sharing>
+    - Testes e validações
+        - Testes automatizados, Unit Tests 
+        - Fluent Validation
+    - .NET.ASP
+        - asp - w3s, cursos dio
+        - asp com react - youtube 
+        - repetir treino curso Ralf - API
+    - Bancos de dados e ORM
+        - tutoriais ricardo uso do entity framework:
+            - <https://github.com/rvlampert/entity-framework/blob/main/TUTORIAL.md>
+        - dbcontext: 
+            - <http://www.macoratti.net/15/09/ef_tdbc1.htm>
 - **Banco de dados**
     - Revisão aula fbd
     - postgre 
@@ -76,7 +89,7 @@
 # Procergs
 
 - Arquitetura de computadores.
-- Sistemas operacionais Windows e Linux,
+- Sistemas operacionais Windows e Linux.
 - Fundamentos de engenharia de software.
 - Análise de sistemas: técnicas de especificação de requisitos em ciclos de vida tradicional e ágil de desenvolvimento de sistemas.
 - Conceitos de orientação à objetos: objetos e classes, encapsulamento, associações e ligações, herança, polimorfismo, coesão e acoplamento.
