@@ -1,7 +1,12 @@
+# Softplan
+
+
 # Estudar (obs.: itens em ordem alfabética)
 
 - **.NET**
     - POO e outras prioridades básicas
+        - exercícios POO básicos
+        - POO avançada
         - operador => em Csharp
         - Repositorios
         - Classes Context, DBContext
@@ -13,6 +18,7 @@
             - <https://github.com/rvlampert/entity-framework>
             - <https://colab.research.google.com/drive/1agvs4efXPZdohXcKjkJCXqXejqSV0HEs?usp=sharing>
             - <https://colab.research.google.com/drive/1s7GCGVtX6l80SrXr-SJcFImZHSDTHgDi?usp=sharing>
+    - Injeção de dependências
     - Testes e validações
         - Testes automatizados, Unit Tests 
         - Fluent Validation
@@ -52,15 +58,13 @@
     - devops - airflow
     - maven
     - cloud platforms architectures (aws, azure, google cloud)
-    - business intelligence    
+    - business intelligence 
+- **Engenharia de Software**
+    - UML     
+    - Contratos 
 - **Git** 
     - Fontes: w3s, pet ufrgs
     - ferramenta de ci do git
-- **Inteligencia Artificial**
-    - Curso IA - equipe Soft fez: <https://course.spacy.io/en/>
-    - implementar exemplo1 ricado: <https://github.com/rvlampert/linear-regression>
-    - implementar exemplo2 ricado: <https://github.com/rvlampert/k-means>
-    - tensor flow, pythorch
 - **Linux**
     - comando curl
 - **Livros**
@@ -72,10 +76,6 @@
 - **Mock**    
     - <https://en.wikipedia.org/wiki/Mock_object>
     - <https://martinfowler.com/articles/mocksArentStubs.html>
-- **Python** 
-    - Fontes: w3s, dio, doc oficial, tutorial oficial, youtube, pythonbrasil
-    - w3s: NumPy, Pandas, SciPy, Matplotlib, Machine Learning, MySQL, MongoDB
-    - google colab, jupyter notebook
 - **React**
     - olhar documentação 
     - curso dio continuar
