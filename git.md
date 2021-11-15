@@ -189,7 +189,7 @@ git pull origin master
 
 ### git vai detectar os conflitos de merge e os arquivos em conflito. 
 
-### Resolva o conflito manualmente e salvar o arquivo
+### Resolva o conflito manualmente e salvar o arquivo 
 
 git add *
 git commit -m "resolvendo o conflito"
