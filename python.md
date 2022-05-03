@@ -1260,6 +1260,24 @@ while True:
     break
 ~~~
 
+### .venv
+
+~~~python
+# criar uma venv
+python3 -m venv .venv 
+
+# ativar uma venv
+. .venv/bin/activate
+pip install --upgrade pip
+make install-dependencies
+
+jupyter notebook
+
+# desativar uma venv
+deactivate
+~~~
+
+
 ## Links
 
 - [Built in Functions Reference](https://www.w3schools.com/python/python_ref_functions.asp)
